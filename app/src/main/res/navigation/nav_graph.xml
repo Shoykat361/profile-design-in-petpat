@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/accountFragment">
+
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.shoykat.profiledesignforpetpat.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/orderHistoryFragment"
+        android:name="com.shoykat.profiledesignforpetpat.OrderHistoryFragment"
+        android:label="Order History"
+        tools:layout="@layout/fragment_order_history" />
+    <fragment
+        android:id="@+id/profile_CarFragment"
+        android:name="com.shoykat.profiledesignforpetpat.Profile_CarFragment"
+        android:label="fragment_profile__car"
+        tools:layout="@layout/fragment_profile__car" />
+    <fragment
+        android:id="@+id/change_Laguage"
+        android:name="com.shoykat.profiledesignforpetpat.Change_Laguage"
+        android:label="fragment_change__laguage"
+        tools:layout="@layout/fragment_change__laguage" />
+    <fragment
+        android:id="@+id/reportFragment"
+        android:name="com.shoykat.profiledesignforpetpat.ReportFragment"
+        android:label="fragment_report"
+        tools:layout="@layout/fragment_report" />
+    <fragment
+        android:id="@+id/changepasswordFragment"
+        android:name="com.shoykat.profiledesignforpetpat.ChangepasswordFragment"
+        android:label="fragment_changepassword"
+        tools:layout="@layout/fragment_changepassword" />
+    <fragment
+        android:id="@+id/orderHistoryfilterFragment"
+        android:name="com.shoykat.profiledesignforpetpat.OrderHistoryfilterFragment"
+        android:label="fragment_order_historyfilter"
+        tools:layout="@layout/fragment_order_historyfilter" />
+</navigation>
